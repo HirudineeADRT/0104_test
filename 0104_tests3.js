@@ -16,7 +16,7 @@ exports.handler = async (event) => {
         }).promise();
 
     } catch (err) {
-        // error handling goes here
+        console.log("error");
     };
 
 
