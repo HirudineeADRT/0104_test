@@ -8,7 +8,7 @@ exports.handler = async (event) => {
 
     try {
         let data = await sqs.receiveMessage({
-            QueueUrl: `https://sqs.${process.env.AWS_REGION}.amazonaws.com/${process.env.SIGMA_AWS_ACC_ID}/testqueue123.fifo`,
+            QueueUrl: `https://sqs.${process.env.AWS_REGION}.amazonaws.com/${process.env.SIGMA_AWS_ACC_ID}/testqueue.fifo`,
             MaxNumberOfMessages: 1,
             VisibilityTimeout: 30,
             WaitTimeSeconds: 0,
