@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "0104_tests3.js",
         "cursor": {
-          "lineNumber": 17,
-          "column": 26
+          "lineNumber": 1,
+          "column": 1
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -55,6 +55,17 @@
           "receiveMessageWaitTime": 0,
           "deadLetterQueueName": "",
           "contentBasedDeduplication": false
+        }
+      },
+      "s3as2TestLahiru": {
+        "name": "s3as2TestLahiru",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "as2-test-lahiru"
+          }
         }
       }
     },
@@ -203,7 +214,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585741351518
+    "lastSave": 1585741411460
   },
   "VCS_STATE": {
     "provider": "GitHub",
