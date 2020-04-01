@@ -14,7 +14,7 @@ exports.handler = async (event) => {
             WaitTimeSeconds: 0,
             AttributeNames: ['All']
         }).promise();
-
+        console.log("kkkk");
     } catch (err) {
         console.log("error");
     };

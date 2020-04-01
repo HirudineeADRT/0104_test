@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "0104_tests3.js",
         "cursor": {
-          "lineNumber": 19,
-          "column": 27
+          "lineNumber": 17,
+          "column": 26
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -203,7 +203,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585741193322
+    "lastSave": 1585741351518
   },
   "VCS_STATE": {
     "provider": "GitHub",
