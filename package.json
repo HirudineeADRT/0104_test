@@ -2,7 +2,5 @@
   "name": "0104_test",
   "version": "1.0.0",
   "dependencies": {},
-  "devDependencies": {
-    "aws-sdk": "2.644.0"
-  }
+  "devDependencies": {}
 }
